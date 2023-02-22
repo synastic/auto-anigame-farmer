@@ -1,6 +1,8 @@
+###edit the following
 server_id=''#copy ur channelid here (use developer mode and leftclick on channel and click copy)
 channelid=''#copy ur channelid here (use developer mode and leftclick on channel and click copy)
 token= ""#paste ur token here u can search on how to get it on youtube it comes with " so remove them and makse sure ur token doesnt end up like ""token"" it should be like "token"
+###dont touch anything below here
 from commands import *
 async def start ():
   if token == '':
